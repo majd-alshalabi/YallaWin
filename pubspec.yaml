@@ -1,0 +1,37 @@
+name: yallawin
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  shared_preferences: ^2.0.6
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: AndadaPro-Italic-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/AndadaPro-Italic-VariableFont_wght.ttf
+    - family: Lato-Regular
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
